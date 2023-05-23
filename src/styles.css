@@ -1,0 +1,56 @@
+body {
+  background: black;
+  font-family: monospace;
+}
+.App {
+  text-align: center;
+  background: grey;
+  color: whitesmoke;
+  padding: 2em;
+  border-radius: 12px;
+  width: 80%;
+  margin: 1em auto;
+}
+
+.Todo {
+  background: black;
+  padding: 1em;
+  margin-top: 1em;
+  list-style: none;
+  border-radius: 12px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  border: none;
+  background: #333;
+  padding: 1em;
+  font-size: 1em;
+  color: whitesmoke;
+  border-radius: 8px;
+}
+
+button {
+  background: #333;
+  border: none;
+  color: whitesmoke;
+  padding: 1em;
+  margin-left: 1em;
+  font-weight: bolder;
+  border-radius: 8px;
+}
+.addTodo {
+  background: teal;
+}
+.remove-btn:hover {
+  cursor: pointer;
+  background: coral;
+}
+.addTodo:hover {
+  cursor: pointer;
+  background: rgb(13, 167, 167);
+}
